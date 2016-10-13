@@ -1,3 +1,21 @@
+document.addEventListener('DOMContentLoaded', function() {
+  
+
+    var elem = document.querySelector('.flickity');
+    var flkty = new Flickity(elem, {
+        contain: true,
+        wrapAround: true,
+        autoPlay: 6000,
+        selectedAttraction: 0.01,
+        friction: 0.2
+            // lower attraction and lower friction
+            // slower transitions
+            // easier to flick past cells
+            // advance cells every 3 seconds
+    });
+    
+
+
 var menu = document.querySelector('.top'),
 slides = document.querySelector('.is-selected');
 height = slides.clientHeight;
@@ -49,4 +67,5 @@ hamburger.addEventListener('click', function (e){
 e.preventDefault();
 navList.classList.toggle('accessibly-hidden');
 
+});
 });
