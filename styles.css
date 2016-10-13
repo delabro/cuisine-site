@@ -51,6 +51,7 @@ nav ul {
     margin-bottom:0;
     max-width:20%;
 
+
 }
 
 nav ul li {
@@ -58,6 +59,10 @@ nav ul li {
 display: block;
 text-align:center;
 
+}
+
+a {
+    color: white;
 }
 
 .accessibly-hidden{
@@ -168,8 +173,9 @@ nav ul li a {
     margin: 0 auto;
     padding: 1em;
     text-decoration: none;
-   
+       
 }
+
 
 
 
@@ -181,6 +187,7 @@ nav ul li a {
 }
 
 /*layout ------------------------------------------*/
+
 
 .menuside1 {
     display: flex;
