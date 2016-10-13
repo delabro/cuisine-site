@@ -166,6 +166,9 @@
     </footer>
     <script src="flickity.min.js"></script>
     <script>
+     document.addEventListener('DOMContentLoaded', function() {
+  
+
     var elem = document.querySelector('.flickity');
     var flkty = new Flickity(elem, {
         contain: true,
@@ -178,7 +181,9 @@
             // easier to flick past cells
             // advance cells every 3 seconds
     });
+    });
     </script>
+
     <script src="custom.js"></script>
 </body>
 
