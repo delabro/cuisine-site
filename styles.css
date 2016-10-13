@@ -50,6 +50,7 @@ nav ul {
     list-style: none;
     margin-bottom:0;
     max-width:20%;
+    color:white;
 
 }
 
@@ -168,14 +169,10 @@ nav ul li a {
     margin: 0 auto;
     padding: 1em;
     text-decoration: none;
-    color: white;
-
-   
+       
 }
 
-a {
-	color: white;
-}
+
 
 
 .sticky {
